@@ -1,0 +1,109 @@
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+    }
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: bisque;
+    display: grid;
+    margin: 100px;
+}
+
+header {
+    font-size: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: bisque;
+    align-items: center;
+    background-image: url(../img/Zicht\ op\ Kampen.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#midden {
+    display: flex;
+    min-height: 300px;
+}
+
+ul{
+    list-style-type: square;
+}
+
+#wistudat {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(120, 185, 128);
+    border-radius: 15px;
+}
+
+#attracties {
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(99, 218, 99);
+    border-radius: 15px;
+}
+
+div {
+    min-height: 150px;
+}
+
+footer {
+    text-align: center;
+}
